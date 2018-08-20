@@ -1,4 +1,7 @@
 class ProductSerializer
+
+  attributes :id, :name, :description, :inventory, :price
+
   def self.serialize(product)
     serialized_product = '{'
 
